@@ -3,6 +3,7 @@
     <!-- Define your colors in `res/values/colors.xml` -->
     <color name="twitter_blue">#2196F3</color>
     <color name="black">#000000</color>
+    <color name="darkred">#FF0303</color>
 
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -30,6 +31,12 @@
 
     <style name="MyActionBarTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
         <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="counterText"></style>
+
+    <style name="counterOverride">
+        <item name="android:textColor">@color/darkred</item>
     </style>
 
 </resources>

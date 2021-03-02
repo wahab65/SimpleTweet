@@ -7,8 +7,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 
-import androidx.appcompat.widget.Toolbar;
-
 import com.codepath.apps.restclienttemplate.models.SampleModel;
 import com.codepath.apps.restclienttemplate.models.SampleModelDao;
 import com.codepath.oauth.OAuthLoginActionBarActivity;
@@ -40,7 +38,7 @@ public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 	// Inflate the menu; this adds items to the action bar if it is present.
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.login, menu);
+		getMenuInflater().inflate(R.menu.menu_main, menu);
 		return true;
 	}
 
